@@ -1,634 +1,846 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chef Kalu | Kalu Kooks</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./style3.css">
-    <link rel="stylesheet" href="./menu_style.css">
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./style3.css" />
+    <link rel="stylesheet" href="./menu_style.css" />
+  </head>
+  <body>
     <!-- Header & Navigation -->
     <header>
-        <div class="container header-container">
-            <a href="index.html" class="logo">Kalu<span>Kooks</span></a>
-            <div class="mobile-menu">
-                <i class="fas fa-bars"></i>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="events.html">Events</a></li>
-                    <li><a href="menu.html">Menu</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="blog.html">Blog</a></li>
-                </ul>
-            </nav>
+      <div class="container header-container">
+        <a href="index.html" class="logo">Kalu<span>Kooks</span></a>
+        <div class="mobile-menu">
+          <i class="fas fa-bars"></i>
         </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="blog.html">Blog</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
     <!-- Menu Banner -->
-    <section class="menu-banner">
-        <div class="container menu-banner-content">
-            <h1>Kalu Kooks</h1>
-            <p>Explore our exquisite culinary offerings for weekend delights and special events</p>
-            <a href="#menu-items" class="btn">View Full Menu</a>
+    <!-- <section class="menu-banner">
+      <div class="container menu-banner-content">
+        <h1>Kalu Kooks</h1>
+        <p>
+          Explore our exquisite culinary offerings for weekend delights and
+          special events
+        </p>
+        <a href="#menu-items" class="btn">View Full Menu</a>
+      </div>
+    </section> -->
+
+    <section class="hero" id="home2">
+      <div class="container hero-content">
+        <h1>Kalu Kooks</h1>
+        <p>
+          Explore our exquisite culinary offerings for weekend delights and
+          special events
+        </p>
+        <div class="hero-btns">
+          <a href="menu.html" class="btn">View Weekend Menu</a>
         </div>
+      </div>
     </section>
 
     <!-- Menu Categories -->
     <section class="menu-categories" id="menu-items">
-        <div class="container">
-            <div class="text-center mb-5">
-                <h2>Our Culinary Offerings</h2>
-                <p>Discover a world of flavors with our diverse menu options</p>
-            </div>
-            
-            <div class="category-tabs">
-                <button class="category-tab active" data-category="all">All Items</button>
-                <button class="category-tab" data-category="starters">Starters</button>
-                <button class="category-tab" data-category="brunch">Brunch</button>
-                <button class="category-tab" data-category="rice">Rice</button>
-                <button class="category-tab" data-category="pasta">Pasta</button>
-                <button class="category-tab" data-category="stew">Stew</button>
-                <button class="category-tab" data-category="soups">Soups</button>
-                <button class="category-tab" data-category="proteins">Proteins</button>
-                <button class="category-tab" data-category="sides">Sides</button>
-                <button class="category-tab" data-category="cocktails">Cocktails</button>
-            </div>
-            
-            <!-- Starters/Appetizers -->
-            <div class="menu-section-title">
-                <h2>Starters / Appetizers</h2>
-            </div>
-            
-            <div class="menu-items">
-                <div class="menu-item" data-category="starters">
-                    <div class="menu-item-img">
-                        <img src="https://images.unsplash.com/photo-1625944525533-473f1c7995a6?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Meat Pie">
-                    </div>
-                    <div class="menu-item-content">
-                        <div class="menu-item-header">
-                            <h3>Meat Pie</h3>
-                            <span class="menu-price">$2.50 each</span>
-                        </div>
-                        <p class="menu-description">Flaky pastry filled with seasoned minced meat</p>
-                        <div class="menu-note">Half pan / Large pan options available</div>
-                    </div>
-                </div>
-                
-                <div class="menu-item" data-category="starters">
-                    <div class="menu-item-img">
-                        <img src="https://images.unsplash.com/photo-1603105037880-8805c2599f3a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Samosa">
-                    </div>
-                    <div class="menu-item-content">
-                        <div class="menu-item-header">
-                            <h3>Samosa</h3>
-                            <span class="menu-price">$2 each</span>
-                        </div>
-                        <p class="menu-description">Crispy pastry filled with chicken or beef</p>
-                        <div class="menu-options">
-                            <span class="menu-option">Chicken</span>
-                            <span class="menu-option">Beef</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="menu-item" data-category="starters">
-                    <div class="menu-item-img">
-                        <img src="https://images.unsplash.com/photo-1626082927389-6cd097cee6a6?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Vegetable Spring Rolls">
-                    </div>
-                    <div class="menu-item-content">
-                        <div class="menu-item-header">
-                            <h3>Vegetable Spring Rolls</h3>
-                            <span class="menu-price">$2 each</span>
-                        </div>
-                        <p class="menu-description">Crispy rolls filled with fresh vegetables</p>
-                    </div>
-                </div>
-                
-                <div class="menu-item" data-category="starters">
-                    <div class="menu-item-img">
-                        <img src="https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Puff Puff">
-                    </div>
-                    <div class="menu-item-content">
-                        <div class="menu-item-header">
-                            <h3>Puff Puff</h3>
-                            <span class="menu-price">$60/$120</span>
-                        </div>
-                        <p class="menu-description">Traditional African fried dough balls</p>
-                        <div class="menu-note">Half pan / Large pan</div>
-                    </div>
-                </div>
-                
-                <div class="menu-item" data-category="starters">
-                    <div class="menu-item-img">
-                        <img src="https://images.unsplash.com/photo-1625944525533-473f1c7995a6?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Oreo Puff Puff">
-                    </div>
-                    <div class="menu-item-content">
-                        <div class="menu-item-header">
-                            <h3>Oreo Puff Puff</h3>
-                            <span class="menu-price">$75/$150</span>
-                        </div>
-                        <p class="menu-description">Puff puff with crushed Oreo cookies</p>
-                        <div class="menu-note">Half pan / Large pan</div>
-                    </div>
-                </div>
-                
-                <div class="menu-item" data-category="starters">
-                    <div class="menu-item-img">
-                        <img src="https://images.unsplash.com/photo-1589301760014-d929f3979dbc?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Suya Eggrolls">
-                    </div>
-                    <div class="menu-item-content">
-                        <div class="menu-item-header">
-                            <h3>Suya Eggrolls</h3>
-                            <span class="menu-price">$4 each</span>
-                        </div>
-                        <p class="menu-description">Spicy suya-flavored eggrolls</p>
-                    </div>
-                </div>
-                
-                <div class="menu-item" data-category="starters">
-                    <div class="menu-item-img">
-                        <img src="https://images.unsplash.com/photo-1553979459-d2229ba7433b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Cheeseburger Sliders">
-                    </div>
-                    <div class="menu-item-content">
-                        <div class="menu-item-header">
-                            <h3>Cheeseburger Sliders</h3>
-                            <span class="menu-price">$3 each</span>
-                        </div>
-                        <p class="menu-description">Mini cheeseburgers with special sauce</p>
-                    </div>
-                </div>
-                
-                <div class="menu-item" data-category="starters">
-                    <div class="menu-item-img">
-                        <img src="https://images.unsplash.com/photo-1613514785940-daed077b3d94?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Empanadas">
-                    </div>
-                    <div class="menu-item-content">
-                        <div class="menu-item-header">
-                            <h3>Empanadas</h3>
-                            <span class="menu-price">$3</span>
-                        </div>
-                        <p class="menu-description">Savory pastries filled with your choice of protein</p>
-                        <div class="menu-options">
-                            <span class="menu-option">Chicken</span>
-                            <span class="menu-option">Beef</span>
-                            <span class="menu-option">Salmon</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="menu-item" data-category="starters">
-                    <div class="menu-item-img">
-                        <img src="https://images.unsplash.com/photo-1606755962773-d324e7642383?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Shredded Beef Tostones">
-                    </div>
-                    <div class="menu-item-content">
-                        <div class="menu-item-header">
-                            <h3>Shredded Beef Tostones</h3>
-                            <span class="menu-price">$6 each</span>
-                        </div>
-                        <p class="menu-description">Crispy plantains topped with shredded beef</p>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Brunch Menu -->
-            <div class="menu-section-title">
-                <h2>Brunch Menu</h2>
-            </div>
-            
-            <div class="menu-items">
-                <div class="menu-item" data-category="brunch">
-                    <div class="menu-item-img">
-                        <img src="https://images.unsplash.com/photo-1558140270-6066a0e8b0d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Waffles">
-                    </div>
-                    <div class="menu-item-content">
-                        <div class="menu-item-header">
-                            <h3>Waffles</h3>
-                            <span class="menu-price">$100</span>
-                        </div>
-                        <p class="menu-description">Fluffy waffles with your choice of flavor</p>
-                        <div class="menu-options">
-                            <span class="menu-option">Plain</span>
-                            <span class="menu-option">Blueberry</span>
-                            <span class="menu-option">Red Velvet</span>
-                        </div>
-                        <div class="menu-note">Full pan feeds 25-30 people</div>
-                    </div>
-                </div>
-                
-                <div class="menu-item" data-category="brunch">
-                    <div class="menu-item-img">
-                        <img src="https://images.unsplash.com/photo-1562376552-0d160a2f238d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Pancakes">
-                    </div>
-                    <div class="menu-item-content">
-                        <div class="menu-item-header">
-                            <h3>Pancakes</h3>
-                            <span class="menu-price">$100</span>
-                        </div>
-                        <p class="menu-description">Fluffy buttermilk pancakes</p>
-                        <div class="menu-note">Full pan feeds 25-30 people</div>
-                    </div>
-                </div>
-                
-                <div class="menu-item" data-category="brunch">
-                    <div class="menu-item-img">
-                        <img src="https://images.unsplash.com/photo-1615485290382-441e4d049cb3?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Bagel Basket">
-                    </div>
-                    <div class="menu-item-content">
-                        <div class="menu-item-header">
-                            <h3>Bagel Basket</h3>
-                            <span class="menu-price">$80</span>
-                        </div>
-                        <p class="menu-description">Assorted bagels with cream cheese</p>
-                        <div class="menu-note">Full pan feeds 25-30 people</div>
-                    </div>
-                </div>
-                
-                <div class="menu-item" data-category="brunch">
-                    <div class="menu-item-img">
-                        <img src="https://images.unsplash.com/photo-1493770348161-369560ae357d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Avocado Toast">
-                    </div>
-                    <div class="menu-item-content">
-                        <div class="menu-item-header">
-                            <h3>Avocado Toast</h3>
-                            <span class="menu-price">$125</span>
-                        </div>
-                        <p class="menu-description">Sourdough toast with avocado spread</p>
-                        <div class="menu-note">Full pan feeds 25-30 people</div>
-                    </div>
-                </div>
-                
-                <div class="menu-item" data-category="brunch">
-                    <div class="menu-item-img">
-                        <img src="https://images.unsplash.com/photo-1595857818787-1d6f0ec78f91?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="French Toast">
-                    </div>
-                    <div class="menu-item-content">
-                        <div class="menu-item-header">
-                            <h3>French Toast</h3>
-                            <span class="menu-price">$100</span>
-                        </div>
-                        <p class="menu-description">Brioche french toast with maple syrup</p>
-                        <div class="menu-note">Full pan feeds 25-30 people</div>
-                    </div>
-                </div>
-                
-                <div class="menu-item" data-category="brunch">
-                    <div class="menu-item-img">
-                        <img src="https://images.unsplash.com/photo-1626082927389-6cd097cee6a6?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Parfait Style Oatmeal">
-                    </div>
-                    <div class="menu-item-content">
-                        <div class="menu-item-header">
-                            <h3>Parfait Style Oatmeal</h3>
-                            <span class="menu-price">$120</span>
-                        </div>
-                        <p class="menu-description">Layered oatmeal with fruits and nuts</p>
-                        <div class="menu-note">Full pan feeds 25-30 people</div>
-                    </div>
-                </div>
-                
-                <div class="menu-item" data-category="brunch">
-                    <div class="menu-item-img">
-                        <img src="https://images.unsplash.com/photo-1505253716362-afaea1d3d1af?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Yogurt Parfait">
-                    </div>
-                    <div class="menu-item-content">
-                        <div class="menu-item-header">
-                            <h3>Yogurt Parfait</h3>
-                            <span class="menu-price">$4 per</span>
-                        </div>
-                        <p class="menu-description">Layered yogurt with granola and berries</p>
-                    </div>
-                </div>
-                
-                <div class="menu-item" data-category="brunch">
-                    <div class="menu-item-img">
-                        <img src="https://images.unsplash.com/photo-1617196034796-73dfa7b1fd56?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Shrimp Grits">
-                    </div>
-                    <div class="menu-item-content">
-                        <div class="menu-item-header">
-                            <h3>Shrimp Grits</h3>
-                            <span class="menu-price">$140</span>
-                        </div>
-                        <p class="menu-description">Creamy grits with sautéed shrimp</p>
-                        <div class="menu-note">Full pan feeds 25-30 people</div>
-                    </div>
-                </div>
-                
-                <div class="menu-item" data-category="brunch">
-                    <div class="menu-item-img">
-                        <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Bacon & Sausage">
-                    </div>
-                    <div class="menu-item-content">
-                        <div class="menu-item-header">
-                            <h3>Bacon & Sausage</h3>
-                            <span class="menu-price">$175</span>
-                        </div>
-                        <p class="menu-description">Assorted breakfast meats</p>
-                        <div class="menu-options">
-                            <span class="menu-option">Beef/Turkey Bacon</span>
-                            <span class="menu-option">Kielbasa/Beef/Turkey Sausage</span>
-                        </div>
-                        <div class="menu-note">Full pan feeds 25-30 people</div>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Rice -->
-            <div class="menu-section-title">
-                <h2>Rice Dishes</h2>
-            </div>
-            
-            <div class="menu-items">
-                <div class="menu-item" data-category="rice">
-                    <div class="menu-item-img">
-                        <img src="https://images.unsplash.com/photo-1603133872878-684f208fb84b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Yellow Rice">
-                    </div>
-                    <div class="menu-item-content">
-                        <div class="menu-item-header">
-                            <h3>Yellow Rice</h3>
-                            <span class="menu-price">$100</span>
-                        </div>
-                        <p class="menu-description">Saffron-infused rice with vegetables</p>
-                    </div>
-                </div>
-                
-                <div class="menu-item" data-category="rice">
-                    <div class="menu-item-img">
-                        <img src="https://images.unsplash.com/photo-1633944097791-2c8a4c8b1d1b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Nigerian Fried Rice">
-                    </div>
-                    <div class="menu-item-content">
-                        <div class="menu-item-header">
-                            <h3>Nigerian Fried Rice</h3>
-                            <span class="menu-price">$120</span>
-                        </div>
-                        <p class="menu-description">Traditional Nigerian-style fried rice</p>
-                    </div>
-                </div>
-                
-                <div class="menu-item" data-category="rice">
-                    <div class="menu-item-img">
-                        <img src="https://images.unsplash.com/photo-1633945274309-2c16c9682a8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Chinese Fried Rice">
-                    </div>
-                    <div class="menu-item-content">
-                        <div class="menu-item-header">
-                            <h3>Chinese Fried Rice</h3>
-                            <span class="menu-price">$120</span>
-                        </div>
-                        <p class="menu-description">Classic Chinese-style fried rice</p>
-                    </div>
-                </div>
-                
-                <div class="menu-item" data-category="rice">
-                    <div class="menu-item-img">
-                        <img src="https://images.unsplash.com/photo-1603360946369-dc9bbd814103?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Jollof Rice">
-                    </div>
-                    <div class="menu-item-content">
-                        <div class="menu-item-header">
-                            <h3>Jollof Rice</h3>
-                            <span class="menu-price">$100</span>
-                        </div>
-                        <p class="menu-description">West African classic tomato rice</p>
-                    </div>
-                </div>
-                
-                <div class="menu-item" data-category="rice">
-                    <div class="menu-item-img">
-                        <img src="https://images.unsplash.com/photo-1612927601601-6638404737ce?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Seafood Paella">
-                    </div>
-                    <div class="menu-item-content">
-                        <div class="menu-item-header">
-                            <h3>Seafood Paella</h3>
-                            <span class="menu-price">$200</span>
-                        </div>
-                        <p class="menu-description">Spanish-style rice with assorted seafood</p>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Pasta -->
-            <div class="menu-section-title">
-                <h2>Pasta Specialties</h2>
-            </div>
-            
-            <div class="menu-items">
-                <div class="menu-item" data-category="pasta">
-                    <div class="menu-item-img">
-                        <img src="https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Lasagna">
-                    </div>
-                    <div class="menu-item-content">
-                        <div class="menu-item-header">
-                            <h3>Lasagna</h3>
-                            <span class="menu-price">$160</span>
-                        </div>
-                        <p class="menu-description">Layered pasta with cheese and meat sauce</p>
-                        <div class="menu-options">
-                            <span class="menu-option">Ground Beef</span>
-                            <span class="menu-option">Ground Turkey</span>
-                            <span class="menu-option">Ground Chicken</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="menu-item" data-category="pasta">
-                    <div class="menu-item-img">
-                        <img src="https://images.unsplash.com/photo-1608754482805-6f630357358b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Oxtail Lasagna">
-                    </div>
-                    <div class="menu-item-content">
-                        <div class="menu-item-header">
-                            <h3>Oxtail Lasagna</h3>
-                            <span class="menu-price">$300</span>
-                        </div>
-                        <p class="menu-description">Rich lasagna with tender oxtail ragu</p>
-                    </div>
-                </div>
-                
-                <div class="menu-item" data-category="pasta">
-                    <div class="menu-item-img">
-                        <img src="https://images.unsplash.com/photo-1598866594230-a7c12756260f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Alfredo">
-                    </div>
-                    <div class="menu-item-content">
-                        <div class="menu-item-header">
-                            <h3>Alfredo</h3>
-                            <span class="menu-price">$120</span>
-                        </div>
-                        <p class="menu-description">Creamy Alfredo sauce with your choice of protein</p>
-                        <div class="menu-options">
-                            <span class="menu-option">Shrimp</span>
-                            <span class="menu-option">Chicken</span>
-                            <span class="menu-option">Steak</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="menu-item" data-category="pasta">
-                    <div class="menu-item-img">
-                        <img src="https://images.unsplash.com/photo-1555949258-eb67b1ef0ceb?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Rasta Pasta">
-                    </div>
-                    <div class="menu-item-content">
-                        <div class="menu-item-header">
-                            <h3>Rasta Pasta</h3>
-                            <span class="menu-price">$150</span>
-                        </div>
-                        <p class="menu-description">Jerk-seasoned pasta with creamy sauce</p>
-                        <div class="menu-options">
-                            <span class="menu-option">Oxtail</span>
-                            <span class="menu-option">Chicken</span>
-                            <span class="menu-option">Steak</span>
-                            <span class="menu-option">Shrimp</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="menu-item" data-category="pasta">
-                    <div class="menu-item-img">
-                        <img src="https://images.unsplash.com/photo-1551183053-bf91a1d81141?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Seafood Scampi">
-                    </div>
-                    <div class="menu-item-content">
-                        <div class="menu-item-header">
-                            <h3>Seafood Scampi</h3>
-                            <span class="menu-price">$200</span>
-                        </div>
-                        <p class="menu-description">Garlic butter shrimp and scallops with linguine</p>
-                    </div>
-                </div>
-                
-                <div class="menu-item" data-category="pasta">
-                    <div class="menu-item-img">
-                        <img src="https://images.unsplash.com/photo-1611270629569-8b357cb88da9?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Four Cheese Macaroni">
-                    </div>
-                    <div class="menu-item-content">
-                        <div class="menu-item-header">
-                            <h3>Four Cheese Macaroni</h3>
-                            <span class="menu-price">$160</span>
-                        </div>
-                        <p class="menu-description">Creamy mac and cheese with four cheese blend</p>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Call to Action -->
-            <section class="menu-cta">
-                <div class="container">
-                    <h2>Ready to Place Your Order?</h2>
-                    <p>Contact us to reserve your weekend meals or book our catering services for your special event</p>
-                    <a href="index.html#contact" class="btn">Contact Chef Kalu</a>
-                </div>
-            </section>
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2>Our Culinary Offerings</h2>
+          <p>Discover a world of flavors with our diverse menu options</p>
         </div>
+
+        <div class="category-tabs">
+          <button class="category-tab active" data-category="all">
+            All Items
+          </button>
+          <button class="category-tab" data-category="starters">
+            Starters
+          </button>
+          <button class="category-tab" data-category="brunch">Brunch</button>
+          <button class="category-tab" data-category="rice">Rice</button>
+          <button class="category-tab" data-category="pasta">Pasta</button>
+          <button class="category-tab" data-category="stew">Stew</button>
+          <button class="category-tab" data-category="soups">Soups</button>
+          <button class="category-tab" data-category="proteins">
+            Proteins
+          </button>
+          <button class="category-tab" data-category="sides">Sides</button>
+          <button class="category-tab" data-category="cocktails">
+            Cocktails
+          </button>
+        </div>
+
+        <!-- Starters/Appetizers -->
+        <div class="menu-section-title">
+          <h2>Starters / Appetizers</h2>
+        </div>
+
+        <div class="menu-items">
+          <div class="menu-item" data-category="starters">
+            <div class="menu-item-img">
+              <img
+                src="https://images.unsplash.com/photo-1625944525533-473f1c7995a6?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                alt="Meat Pie"
+              />
+            </div>
+            <div class="menu-item-content">
+              <div class="menu-item-header">
+                <h3>Meat Pie</h3>
+                <span class="menu-price">$2.50 each</span>
+              </div>
+              <p class="menu-description">
+                Flaky pastry filled with seasoned minced meat
+              </p>
+              <div class="menu-note">
+                Half pan / Large pan options available
+              </div>
+            </div>
+          </div>
+
+          <div class="menu-item" data-category="starters">
+            <div class="menu-item-img">
+              <img
+                src="https://images.unsplash.com/photo-1603105037880-8805c2599f3a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                alt="Samosa"
+              />
+            </div>
+            <div class="menu-item-content">
+              <div class="menu-item-header">
+                <h3>Samosa</h3>
+                <span class="menu-price">$2 each</span>
+              </div>
+              <p class="menu-description">
+                Crispy pastry filled with chicken or beef
+              </p>
+              <div class="menu-options">
+                <span class="menu-option">Chicken</span>
+                <span class="menu-option">Beef</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="menu-item" data-category="starters">
+            <div class="menu-item-img">
+              <img
+                src="https://images.unsplash.com/photo-1626082927389-6cd097cee6a6?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                alt="Vegetable Spring Rolls"
+              />
+            </div>
+            <div class="menu-item-content">
+              <div class="menu-item-header">
+                <h3>Vegetable Spring Rolls</h3>
+                <span class="menu-price">$2 each</span>
+              </div>
+              <p class="menu-description">
+                Crispy rolls filled with fresh vegetables
+              </p>
+            </div>
+          </div>
+
+          <div class="menu-item" data-category="starters">
+            <div class="menu-item-img">
+              <img
+                src="https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                alt="Puff Puff"
+              />
+            </div>
+            <div class="menu-item-content">
+              <div class="menu-item-header">
+                <h3>Puff Puff</h3>
+                <span class="menu-price">$60/$120</span>
+              </div>
+              <p class="menu-description">
+                Traditional African fried dough balls
+              </p>
+              <div class="menu-note">Half pan / Large pan</div>
+            </div>
+          </div>
+
+          <div class="menu-item" data-category="starters">
+            <div class="menu-item-img">
+              <img
+                src="https://images.unsplash.com/photo-1625944525533-473f1c7995a6?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                alt="Oreo Puff Puff"
+              />
+            </div>
+            <div class="menu-item-content">
+              <div class="menu-item-header">
+                <h3>Oreo Puff Puff</h3>
+                <span class="menu-price">$75/$150</span>
+              </div>
+              <p class="menu-description">
+                Puff puff with crushed Oreo cookies
+              </p>
+              <div class="menu-note">Half pan / Large pan</div>
+            </div>
+          </div>
+
+          <div class="menu-item" data-category="starters">
+            <div class="menu-item-img">
+              <img
+                src="https://images.unsplash.com/photo-1589301760014-d929f3979dbc?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                alt="Suya Eggrolls"
+              />
+            </div>
+            <div class="menu-item-content">
+              <div class="menu-item-header">
+                <h3>Suya Eggrolls</h3>
+                <span class="menu-price">$4 each</span>
+              </div>
+              <p class="menu-description">Spicy suya-flavored eggrolls</p>
+            </div>
+          </div>
+
+          <div class="menu-item" data-category="starters">
+            <div class="menu-item-img">
+              <img
+                src="https://images.unsplash.com/photo-1553979459-d2229ba7433b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                alt="Cheeseburger Sliders"
+              />
+            </div>
+            <div class="menu-item-content">
+              <div class="menu-item-header">
+                <h3>Cheeseburger Sliders</h3>
+                <span class="menu-price">$3 each</span>
+              </div>
+              <p class="menu-description">
+                Mini cheeseburgers with special sauce
+              </p>
+            </div>
+          </div>
+
+          <div class="menu-item" data-category="starters">
+            <div class="menu-item-img">
+              <img
+                src="https://images.unsplash.com/photo-1613514785940-daed077b3d94?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                alt="Empanadas"
+              />
+            </div>
+            <div class="menu-item-content">
+              <div class="menu-item-header">
+                <h3>Empanadas</h3>
+                <span class="menu-price">$3</span>
+              </div>
+              <p class="menu-description">
+                Savory pastries filled with your choice of protein
+              </p>
+              <div class="menu-options">
+                <span class="menu-option">Chicken</span>
+                <span class="menu-option">Beef</span>
+                <span class="menu-option">Salmon</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="menu-item" data-category="starters">
+            <div class="menu-item-img">
+              <img
+                src="https://images.unsplash.com/photo-1606755962773-d324e7642383?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                alt="Shredded Beef Tostones"
+              />
+            </div>
+            <div class="menu-item-content">
+              <div class="menu-item-header">
+                <h3>Shredded Beef Tostones</h3>
+                <span class="menu-price">$6 each</span>
+              </div>
+              <p class="menu-description">
+                Crispy plantains topped with shredded beef
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Brunch Menu -->
+        <div class="menu-section-title">
+          <h2>Brunch Menu</h2>
+        </div>
+
+        <div class="menu-items">
+          <div class="menu-item" data-category="brunch">
+            <div class="menu-item-img">
+              <img
+                src="https://images.unsplash.com/photo-1558140270-6066a0e8b0d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                alt="Waffles"
+              />
+            </div>
+            <div class="menu-item-content">
+              <div class="menu-item-header">
+                <h3>Waffles</h3>
+                <span class="menu-price">$100</span>
+              </div>
+              <p class="menu-description">
+                Fluffy waffles with your choice of flavor
+              </p>
+              <div class="menu-options">
+                <span class="menu-option">Plain</span>
+                <span class="menu-option">Blueberry</span>
+                <span class="menu-option">Red Velvet</span>
+              </div>
+              <div class="menu-note">Full pan feeds 25-30 people</div>
+            </div>
+          </div>
+
+          <div class="menu-item" data-category="brunch">
+            <div class="menu-item-img">
+              <img
+                src="https://images.unsplash.com/photo-1562376552-0d160a2f238d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                alt="Pancakes"
+              />
+            </div>
+            <div class="menu-item-content">
+              <div class="menu-item-header">
+                <h3>Pancakes</h3>
+                <span class="menu-price">$100</span>
+              </div>
+              <p class="menu-description">Fluffy buttermilk pancakes</p>
+              <div class="menu-note">Full pan feeds 25-30 people</div>
+            </div>
+          </div>
+
+          <div class="menu-item" data-category="brunch">
+            <div class="menu-item-img">
+              <img
+                src="https://images.unsplash.com/photo-1615485290382-441e4d049cb3?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                alt="Bagel Basket"
+              />
+            </div>
+            <div class="menu-item-content">
+              <div class="menu-item-header">
+                <h3>Bagel Basket</h3>
+                <span class="menu-price">$80</span>
+              </div>
+              <p class="menu-description">Assorted bagels with cream cheese</p>
+              <div class="menu-note">Full pan feeds 25-30 people</div>
+            </div>
+          </div>
+
+          <div class="menu-item" data-category="brunch">
+            <div class="menu-item-img">
+              <img
+                src="https://images.unsplash.com/photo-1493770348161-369560ae357d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                alt="Avocado Toast"
+              />
+            </div>
+            <div class="menu-item-content">
+              <div class="menu-item-header">
+                <h3>Avocado Toast</h3>
+                <span class="menu-price">$125</span>
+              </div>
+              <p class="menu-description">
+                Sourdough toast with avocado spread
+              </p>
+              <div class="menu-note">Full pan feeds 25-30 people</div>
+            </div>
+          </div>
+
+          <div class="menu-item" data-category="brunch">
+            <div class="menu-item-img">
+              <img
+                src="https://images.unsplash.com/photo-1595857818787-1d6f0ec78f91?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                alt="French Toast"
+              />
+            </div>
+            <div class="menu-item-content">
+              <div class="menu-item-header">
+                <h3>French Toast</h3>
+                <span class="menu-price">$100</span>
+              </div>
+              <p class="menu-description">
+                Brioche french toast with maple syrup
+              </p>
+              <div class="menu-note">Full pan feeds 25-30 people</div>
+            </div>
+          </div>
+
+          <div class="menu-item" data-category="brunch">
+            <div class="menu-item-img">
+              <img
+                src="https://images.unsplash.com/photo-1626082927389-6cd097cee6a6?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                alt="Parfait Style Oatmeal"
+              />
+            </div>
+            <div class="menu-item-content">
+              <div class="menu-item-header">
+                <h3>Parfait Style Oatmeal</h3>
+                <span class="menu-price">$120</span>
+              </div>
+              <p class="menu-description">
+                Layered oatmeal with fruits and nuts
+              </p>
+              <div class="menu-note">Full pan feeds 25-30 people</div>
+            </div>
+          </div>
+
+          <div class="menu-item" data-category="brunch">
+            <div class="menu-item-img">
+              <img
+                src="https://images.unsplash.com/photo-1505253716362-afaea1d3d1af?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                alt="Yogurt Parfait"
+              />
+            </div>
+            <div class="menu-item-content">
+              <div class="menu-item-header">
+                <h3>Yogurt Parfait</h3>
+                <span class="menu-price">$4 per</span>
+              </div>
+              <p class="menu-description">
+                Layered yogurt with granola and berries
+              </p>
+            </div>
+          </div>
+
+          <div class="menu-item" data-category="brunch">
+            <div class="menu-item-img">
+              <img
+                src="https://images.unsplash.com/photo-1617196034796-73dfa7b1fd56?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                alt="Shrimp Grits"
+              />
+            </div>
+            <div class="menu-item-content">
+              <div class="menu-item-header">
+                <h3>Shrimp Grits</h3>
+                <span class="menu-price">$140</span>
+              </div>
+              <p class="menu-description">Creamy grits with sautéed shrimp</p>
+              <div class="menu-note">Full pan feeds 25-30 people</div>
+            </div>
+          </div>
+
+          <div class="menu-item" data-category="brunch">
+            <div class="menu-item-img">
+              <img
+                src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                alt="Bacon & Sausage"
+              />
+            </div>
+            <div class="menu-item-content">
+              <div class="menu-item-header">
+                <h3>Bacon & Sausage</h3>
+                <span class="menu-price">$175</span>
+              </div>
+              <p class="menu-description">Assorted breakfast meats</p>
+              <div class="menu-options">
+                <span class="menu-option">Beef/Turkey Bacon</span>
+                <span class="menu-option">Kielbasa/Beef/Turkey Sausage</span>
+              </div>
+              <div class="menu-note">Full pan feeds 25-30 people</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Rice -->
+        <div class="menu-section-title">
+          <h2>Rice Dishes</h2>
+        </div>
+
+        <div class="menu-items">
+          <div class="menu-item" data-category="rice">
+            <div class="menu-item-img">
+              <img
+                src="https://images.unsplash.com/photo-1603133872878-684f208fb84b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                alt="Yellow Rice"
+              />
+            </div>
+            <div class="menu-item-content">
+              <div class="menu-item-header">
+                <h3>Yellow Rice</h3>
+                <span class="menu-price">$100</span>
+              </div>
+              <p class="menu-description">
+                Saffron-infused rice with vegetables
+              </p>
+            </div>
+          </div>
+
+          <div class="menu-item" data-category="rice">
+            <div class="menu-item-img">
+              <img
+                src="https://images.unsplash.com/photo-1633944097791-2c8a4c8b1d1b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                alt="Nigerian Fried Rice"
+              />
+            </div>
+            <div class="menu-item-content">
+              <div class="menu-item-header">
+                <h3>Nigerian Fried Rice</h3>
+                <span class="menu-price">$120</span>
+              </div>
+              <p class="menu-description">
+                Traditional Nigerian-style fried rice
+              </p>
+            </div>
+          </div>
+
+          <div class="menu-item" data-category="rice">
+            <div class="menu-item-img">
+              <img
+                src="https://images.unsplash.com/photo-1633945274309-2c16c9682a8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                alt="Chinese Fried Rice"
+              />
+            </div>
+            <div class="menu-item-content">
+              <div class="menu-item-header">
+                <h3>Chinese Fried Rice</h3>
+                <span class="menu-price">$120</span>
+              </div>
+              <p class="menu-description">Classic Chinese-style fried rice</p>
+            </div>
+          </div>
+
+          <div class="menu-item" data-category="rice">
+            <div class="menu-item-img">
+              <img
+                src="https://images.unsplash.com/photo-1603360946369-dc9bbd814103?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                alt="Jollof Rice"
+              />
+            </div>
+            <div class="menu-item-content">
+              <div class="menu-item-header">
+                <h3>Jollof Rice</h3>
+                <span class="menu-price">$100</span>
+              </div>
+              <p class="menu-description">West African classic tomato rice</p>
+            </div>
+          </div>
+
+          <div class="menu-item" data-category="rice">
+            <div class="menu-item-img">
+              <img
+                src="https://images.unsplash.com/photo-1612927601601-6638404737ce?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                alt="Seafood Paella"
+              />
+            </div>
+            <div class="menu-item-content">
+              <div class="menu-item-header">
+                <h3>Seafood Paella</h3>
+                <span class="menu-price">$200</span>
+              </div>
+              <p class="menu-description">
+                Spanish-style rice with assorted seafood
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pasta -->
+        <div class="menu-section-title">
+          <h2>Pasta Specialties</h2>
+        </div>
+
+        <div class="menu-items">
+          <div class="menu-item" data-category="pasta">
+            <div class="menu-item-img">
+              <img
+                src="https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                alt="Lasagna"
+              />
+            </div>
+            <div class="menu-item-content">
+              <div class="menu-item-header">
+                <h3>Lasagna</h3>
+                <span class="menu-price">$160</span>
+              </div>
+              <p class="menu-description">
+                Layered pasta with cheese and meat sauce
+              </p>
+              <div class="menu-options">
+                <span class="menu-option">Ground Beef</span>
+                <span class="menu-option">Ground Turkey</span>
+                <span class="menu-option">Ground Chicken</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="menu-item" data-category="pasta">
+            <div class="menu-item-img">
+              <img
+                src="https://images.unsplash.com/photo-1608754482805-6f630357358b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                alt="Oxtail Lasagna"
+              />
+            </div>
+            <div class="menu-item-content">
+              <div class="menu-item-header">
+                <h3>Oxtail Lasagna</h3>
+                <span class="menu-price">$300</span>
+              </div>
+              <p class="menu-description">
+                Rich lasagna with tender oxtail ragu
+              </p>
+            </div>
+          </div>
+
+          <div class="menu-item" data-category="pasta">
+            <div class="menu-item-img">
+              <img
+                src="https://images.unsplash.com/photo-1598866594230-a7c12756260f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                alt="Alfredo"
+              />
+            </div>
+            <div class="menu-item-content">
+              <div class="menu-item-header">
+                <h3>Alfredo</h3>
+                <span class="menu-price">$120</span>
+              </div>
+              <p class="menu-description">
+                Creamy Alfredo sauce with your choice of protein
+              </p>
+              <div class="menu-options">
+                <span class="menu-option">Shrimp</span>
+                <span class="menu-option">Chicken</span>
+                <span class="menu-option">Steak</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="menu-item" data-category="pasta">
+            <div class="menu-item-img">
+              <img
+                src="https://images.unsplash.com/photo-1555949258-eb67b1ef0ceb?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                alt="Rasta Pasta"
+              />
+            </div>
+            <div class="menu-item-content">
+              <div class="menu-item-header">
+                <h3>Rasta Pasta</h3>
+                <span class="menu-price">$150</span>
+              </div>
+              <p class="menu-description">
+                Jerk-seasoned pasta with creamy sauce
+              </p>
+              <div class="menu-options">
+                <span class="menu-option">Oxtail</span>
+                <span class="menu-option">Chicken</span>
+                <span class="menu-option">Steak</span>
+                <span class="menu-option">Shrimp</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="menu-item" data-category="pasta">
+            <div class="menu-item-img">
+              <img
+                src="https://images.unsplash.com/photo-1551183053-bf91a1d81141?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                alt="Seafood Scampi"
+              />
+            </div>
+            <div class="menu-item-content">
+              <div class="menu-item-header">
+                <h3>Seafood Scampi</h3>
+                <span class="menu-price">$200</span>
+              </div>
+              <p class="menu-description">
+                Garlic butter shrimp and scallops with linguine
+              </p>
+            </div>
+          </div>
+
+          <div class="menu-item" data-category="pasta">
+            <div class="menu-item-img">
+              <img
+                src="https://images.unsplash.com/photo-1611270629569-8b357cb88da9?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                alt="Four Cheese Macaroni"
+              />
+            </div>
+            <div class="menu-item-content">
+              <div class="menu-item-header">
+                <h3>Four Cheese Macaroni</h3>
+                <span class="menu-price">$160</span>
+              </div>
+              <p class="menu-description">
+                Creamy mac and cheese with four cheese blend
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Call to Action -->
+        <section class="menu-cta">
+          <div class="container">
+            <h2>Ready to Place Your Order?</h2>
+            <p>
+              Contact us to reserve your weekend meals or book our catering
+              services for your special event
+            </p>
+            <a href="index.html#contact" class="btn">Contact Chef Kalu</a>
+          </div>
+        </section>
+      </div>
     </section>
 
     <!-- Testimonials Section -->
     <section id="testimonials" class="testimonials-section">
-        <div class="container">
-            <p class="subtitle">Client Experiences</p>
-            <h1 class="about-title">What Our Clients Say</h1>
-            <p class="description">From intimate weekend dinners to grand celebrations, hear what our clients have to say about their culinary experiences with Chef Isabella.</p>
-            
-            <div class="testimonial-cards" id="testimonialCarousel">
-                <div class="testimonial-card">
-                    <div class="stars">★★★★★</div>
-                    <blockquote>"Chef Isabella transformed our regular Saturday night into an unforgettable dining experience. The flavors were exquisite, and the presentation was worthy of a fine restaurant. We'll definitely be booking again!"</blockquote>
-                    <div class="client-name">Jennifer R.</div>
-                    <div class="client-role">Weekend Dinner Client</div>
-                </div>
-                
-                <div class="testimonial-card">
-                    <div class="stars">★★★★★</div>
-                    <blockquote>"Hiring Chef Isabella for our anniversary dinner was the best decision. The food was incredible, the service impeccable, and our guests are still talking about it weeks later. Worth every penny!"</blockquote>
-                    <div class="client-name">Michael T.</div>
-                    <div class="client-role">Anniversary Event</div>
-                </div>
-                
-                <div class="testimonial-card">
-                    <div class="stars">★★★★★</div>
-                    <blockquote>"Our intimate engagement dinner was perfect thanks to Chef Isabella. She created a custom menu that reflected our journey as a couple, and the attention to detail was amazing. Truly a magical experience!"</blockquote>
-                    <div class="client-name">Sarah and David</div>
-                    <div class="client-role">Engagement Dinner</div>
-                </div>
-            </div>
-            
-            <div class="nav-arrows">
-                <button class="arrow-btn" onclick="prevSlide()"><i class="fas fa-arrow-left"></i></button>
-                <button class="arrow-btn" onclick="nextSlide()"><i class="fas fa-arrow-right"></i></button>
-            </div>
-        </div>
-    </section>
+      <div class="container">
+        <p class="subtitle">Client Experiences</p>
+        <h1 class="about-title">What Our Clients Say</h1>
+        <p class="description">
+          From intimate weekend dinners to grand celebrations, hear what our
+          clients have to say about their culinary experiences with Chef
+          Isabella.
+        </p>
 
+        <div class="testimonial-cards" id="testimonialCarousel">
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <blockquote>
+              "Chef Isabella transformed our regular Saturday night into an
+              unforgettable dining experience. The flavors were exquisite, and
+              the presentation was worthy of a fine restaurant. We'll definitely
+              be booking again!"
+            </blockquote>
+            <div class="client-name">Jennifer R.</div>
+            <div class="client-role">Weekend Dinner Client</div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <blockquote>
+              "Hiring Chef Isabella for our anniversary dinner was the best
+              decision. The food was incredible, the service impeccable, and our
+              guests are still talking about it weeks later. Worth every penny!"
+            </blockquote>
+            <div class="client-name">Michael T.</div>
+            <div class="client-role">Anniversary Event</div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <blockquote>
+              "Our intimate engagement dinner was perfect thanks to Chef
+              Isabella. She created a custom menu that reflected our journey as
+              a couple, and the attention to detail was amazing. Truly a magical
+              experience!"
+            </blockquote>
+            <div class="client-name">Sarah and David</div>
+            <div class="client-role">Engagement Dinner</div>
+          </div>
+        </div>
+
+        <div class="nav-arrows">
+          <button class="arrow-btn" onclick="prevSlide()">
+            <i class="fas fa-arrow-left"></i>
+          </button>
+          <button class="arrow-btn" onclick="nextSlide()">
+            <i class="fas fa-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+    </section>
 
     <!-- Newsletter Section -->
     <section class="newsletter">
-        <div class="container">
-            <div class="text-center mb-5">
-                <h2>Join Our Culinary Community</h2>
-                <p>Subscribe for weekly menu previews, recipes, and exclusive offers</p>
-            </div>
-            
-            <div class="newsletter-form">
-                <input type="email" placeholder="Your email address">
-                <button class="btn">Subscribe</button>
-            </div>
-            
-            <p class="text-center mt-3">Sign up today and receive a free e-book: "10 Chef-Approved Recipes for Easy Weeknight Dinners"</p>
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2>Join Our Culinary Community</h2>
+          <p>
+            Subscribe for weekly menu previews, recipes, and exclusive offers
+          </p>
         </div>
+
+        <div class="newsletter-form">
+          <input type="email" placeholder="Your email address" />
+          <button class="btn">Subscribe</button>
+        </div>
+
+        <p class="text-center mt-3">
+          Sign up today and receive a free e-book: "10 Chef-Approved Recipes for
+          Easy Weeknight Dinners"
+        </p>
+      </div>
     </section>
 
     <!-- Footer -->
     <footer>
-        <div class="container">
-            <div class="footer-grid">
-                <div class="footer-col">
-                    <h3>Chef Kalu</h3>
-                    <p>Weekend culinary delights and bespoke event catering services. Serving the greater area with passion and creativity.</p>
-                    <div class="social-links">
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-pinterest"></i></a>
-                        <a href="#"><i class="fab fa-youtube"></i></a>
-                    </div>
-                </div>
-                
-                <div class="footer-col">
-                    <h3>Quick Links</h3>
-                    <ul class="footer-links">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="index.html#about">About Chef</a></li>
-                        <li><a href="index.html#services">Weekend Services</a></li>
-                        <li><a href="index.html#events">Event Booking</a></li>
-                        <li><a href="menu.html">Menu</a></li>
-                    </ul>
-                </div>
-                
-                <div class="footer-col">
-                    <h3>Contact Us</h3>
-                    <ul class="footer-links">
-                        <li><i class="fas fa-map-marker-alt"></i> 123 Culinary Street, Foodville</li>
-                        <li><i class="fas fa-phone"></i> (555) 123-4567</li>
-                        <li><i class="fas fa-envelope"></i> info@kalukooks.com</li>
-                        <li><i class="fas fa-clock"></i> Friday-Sunday: 9am-6pm</li>
-                    </ul>
-                </div>
-                
-                <div class="footer-col">
-                    <h3>Service Area</h3>
-                    <div id="map" style="height: 150px; background: #555; border-radius: 8px; display: flex; align-items: center; justify-content: center; color: #fff;">
-                        [Map: Serving Foodville and Surrounding Areas]
-                    </div>
-                </div>
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-col">
+            <h3>Chef Kalu</h3>
+            <p>
+              Weekend culinary delights and bespoke event catering services.
+              Serving the greater area with passion and creativity.
+            </p>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-pinterest"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
             </div>
-            
-            <div class="copyright">
-                <p>&copy; 2023  Kalu Kooks. All rights reserved.</p>
-                <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a> | <a href="#">Cancellation Policy</a></p>
+          </div>
+
+          <div class="footer-col">
+            <h3>Quick Links</h3>
+            <ul class="footer-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="index.html#about">About Chef</a></li>
+              <li><a href="index.html#services">Weekend Services</a></li>
+              <li><a href="index.html#events">Event Booking</a></li>
+              <li><a href="menu.html">Menu</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h3>Contact Us</h3>
+            <ul class="footer-links">
+              <li>
+                <i class="fas fa-map-marker-alt"></i> 123 Culinary Street,
+                Foodville
+              </li>
+              <li><i class="fas fa-phone"></i> (555) 123-4567</li>
+              <li><i class="fas fa-envelope"></i> info@kalukooks.com</li>
+              <li><i class="fas fa-clock"></i> Friday-Sunday: 9am-6pm</li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h3>Service Area</h3>
+            <div
+              id="map"
+              style="
+                height: 150px;
+                background: #555;
+                border-radius: 8px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: #fff;
+              "
+            >
+              [Map: Serving Foodville and Surrounding Areas]
             </div>
+          </div>
         </div>
+
+        <div class="copyright">
+          <p>&copy; 2023 Kalu Kooks. All rights reserved.</p>
+          <p>
+            <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a> |
+            <a href="#">Cancellation Policy</a>
+          </p>
+        </div>
+      </div>
     </footer>
 
-    <script src="/script.js"></script>
-</body>
+    <script src="./script.js"></script>
+  </body>
 </html>
