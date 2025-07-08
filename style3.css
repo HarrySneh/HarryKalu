@@ -518,7 +518,6 @@ blockquote {
   cursor: pointer;
 }
 
-
 /* Responsive Design */
 @media (max-width: 768px) {
   header {
@@ -563,6 +562,4 @@ blockquote {
     width: 100%;
     margin-bottom: 1rem;
   }
-
- 
 }
